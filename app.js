@@ -25,7 +25,7 @@ window.addEventListener('load', ()=>{
 
 
                 // convert farenheit to celcius
-                let celcius = Math.round(((temperature- 32) * (5/9))*100)/100 ;
+                let celcius = Math.round(((temperature- 32) * (5/9))*10)/10 ;
                 temperatureDegree.textContent= celcius;
                 temperatureDescription.textContent= summary;
                 locationTimezone.textContent = data.timezone;
