@@ -6,7 +6,8 @@
 body{
     font-family: 'Nunito', sans-serif;
     height: 100vh;
-    background: url('https://github.com/ChikaiaDev/weather-app-using-javascript.git/back.jpeg');
+    background: url('https://raw.githubusercontent.com/ChikaiaDev/weather-app-using-javascript/master/back.jpeg');
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
